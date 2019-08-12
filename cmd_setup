@@ -1,0 +1,9 @@
+conda activate nlp_fundamentals # enter the env
+conda install scikit-learn # sci-kit learn
+conda install -c anaconda nltk  # nltk
+conda install -c conda-forge nltk_data  # nltk data
+conda install -c conda-forge matplotlib  # matplotlib
+conda install -c kabaka0 stanford-corenlp-python # stanford nlp
+conda install -c conda-forge gensim # gensim
+conda install -c conda-forge spacy # spaCy
+python -m spacy download en # spaCy english library
