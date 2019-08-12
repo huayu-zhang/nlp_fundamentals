@@ -28,6 +28,7 @@ def lemmatize(words, lemmatizer):
     lemma = [lemmatizer(word) for word in words]
     return lemma
 
+# Url of the dataset https://www.kaggle.com/iarunava/imdb-movie-reviews-dataset
 
 # Data import
 train_files_pos = ['./aclImdb/train/pos/' + file for file in os.listdir('aclImdb/train/pos')]
