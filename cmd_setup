@@ -5,5 +5,6 @@ conda install -c conda-forge nltk_data  # nltk data
 conda install -c conda-forge matplotlib  # matplotlib
 conda install -c kabaka0 stanford-corenlp-python # stanford nlp
 conda install -c conda-forge gensim # gensim
+conda install -c anaconda pattern  # pattern for gensim
 conda install -c conda-forge spacy # spaCy
 python -m spacy download en # spaCy english library
